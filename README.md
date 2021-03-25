@@ -2,6 +2,9 @@
 Practicing how to code blockchains in Python.
 
 Had a coding assessment on coding a blockchain, and I didn't know how to do it. So I'm now learning it!
+There will be a file where I create a simple blockchain, and a file where I try to solve the problem below.
+
+# getLastBlock()
 
 Given arrays representing startBalances and pendingTransactions and the integer blockSize, create a blockchain[1] that includes all valid pending transactions in the order in which they are given and return the last block.
 
@@ -49,11 +52,3 @@ An integer specifying the maximum number of transactions that can be included in
 
 A string representing the encoded block, e.g.
 "00000d03a1ce56a06bfdbceb0249bbb2204a6f22, 0000000000000000000000000000000000000000, 28427, [[0, 1, 5], [1, 2, 5]]"
-
-[Python 3] Syntax Tips
-
-# Prints help message to the console
-# Returns a string
-def helloWorld(name):
-    print "This prints to the console when you Run Tests"
-    return "Hello, " + name
