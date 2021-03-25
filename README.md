@@ -30,8 +30,8 @@ Example: `getLastBlock([5, 0, 0], [[0, 1, 5], [1, 2, 5]], 2) = "00000d03a1ce56a0
 
 Notes:
 
-[1] A blockchain is an immutable linked list of ‘blocks’, each containing up to 5 valid transactions. Each block is linked to the previous block via a cryptographic hash rather than a pointer. The global state of each account can be derived by examining the entire chain. More information about the structure and content of a block can be found in the 'Blocks' section.
-[2] Below are some examples of how to run sha1 in popular languages, we recommend that you copy paste this code into your solution.
+- A blockchain is an immutable linked list of ‘blocks’, each containing up to 5 valid transactions. Each block is linked to the previous block via a cryptographic hash rather than a pointer. The global state of each account can be derived by examining the entire chain. More information about the structure and content of a block can be found in the 'Blocks' section.
+- Below are some examples of how to run sha1 in popular languages, we recommend that you copy paste this code into your solution.
 
 python:
 
