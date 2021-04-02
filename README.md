@@ -6,7 +6,7 @@ There will be a file where I create a simple blockchain, and a file where I try 
 
 [x] create simple blockchain
 
-[ ] solve the problem below
+[x] solve the getLastBlock() problem below
 
 # getLastBlock()
 
